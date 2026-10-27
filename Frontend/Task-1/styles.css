@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0d1514;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.scene {
+  position: relative;
+  width: 100%;
+  max-width: 1672px;
+}
+
+.scene__background {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.scene__glyph {
+  position: absolute;
+  top: 42.4%;
+  width: 9.2%;
+  height: auto;
+  z-index: 1;
+  background-color: rgba(241, 212, 149, 0.16);
+  border-radius: 50%;
+  box-shadow: 0 0 18px 7px rgba(255, 207, 92, 0.72);
+}
+
+.scene__glyph--first {
+  left: 35.7%;
+}
+
+.scene__glyph--second {
+  left: 45.4%;
+}
+
+.scene__glyph--third {
+  left: 55.1%;
+}
